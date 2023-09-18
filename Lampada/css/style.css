@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(white,purple);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    width: 400px;
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.central button{
+    background: purple;
+    color: white;
+    padding: 5px 20px;
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
